@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "1027587774618",
+    "project_id": "urknight-a9821",
+    "storage_bucket": "urknight-a9821.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1027587774618:android:b609979729edd17f256723",
+        "android_client_info": {
+          "package_name": "com.example.urknight"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1027587774618-cb0hs91mjd7n3ej155a57drg1qbq7gcn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDi3ydUEnITQy0l64EssvHg8CKCCYcreLg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1027587774618-cb0hs91mjd7n3ej155a57drg1qbq7gcn.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1027587774618-8a6976lduprmfqlv0i3h8c848usg43h8.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.urknight"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

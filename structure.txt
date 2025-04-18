@@ -1,0 +1,50 @@
+📦lib
+┣ 📂core
+┃ ┣ 📂constants
+┃ ┃ ┣ 📜app_colors.dart      # Color palette (e.g. kEmergencyRed)
+┃ ┃ ┣ 📜assets_paths.dart    # Image paths
+┃ ┃ ┗ 📜strings.dart         # All text strings
+┃ ┣ 📂utils
+┃ ┃ ┣ 📜location_utils.dart  # GPS services
+┃ ┃ ┗ 📜permissions.dart    # Permission handlers
+┃ ┗ 📂widgets
+┃   ┣ 📜bottom_nav_bar.dart  # Renamed PascalCase → snake_case
+┃   ┣ 📜head_bar.dart
+┃   ┗ 📜sos_button.dart      # Flutter naming convention
+┣ 📂providers               # State management
+┃ ┣ 📜auth_provider.dart
+┃ ┣ 📜contacts_provider.dart
+┃ ┗ 📜onboarding_provider.dart
+┣ 📂screens
+┃ ┣ 📂app
+┃ ┃ ┣ 📂contacts
+┃ ┃ ┃ ┣ 📜add_contact.dart
+┃ ┃ ┃ ┗ 📜contacts_list.dart
+┃ ┃ ┣ 📂explore
+┃ ┃ ┃ ┣ 📜explore_screen.dart
+┃ ┃ ┃ ┗ 📜hazard_map.dart    # New: Map implementation
+┃ ┃ ┣ 📂profile
+┃ ┃ ┃ ┣ 📜profile_screen.dart
+┃ ┃ ┃ ┗ 📜settings_screen.dart # New
+┃ ┃ ┣ 📂watch
+┃ ┃ ┃ ┣ 📜tutorials_list.dart # Renamed for clarity
+┃ ┃ ┃ ┗ 📜video_player.dart   # New
+┃ ┃ ┗ 📜home_screen.dart
+┃ ┣ 📂auth
+┃ ┃ ┣ 📜login_screen.dart
+┃ ┃ ┣ 📜signup_screen.dart
+┃ ┃ ┗ 📜welcome_screen.dart
+┃ ┗ 📂onboarding
+┃   ┣ 📜onboarding_1.dart    # Renamed for consistency
+┃   ┣ 📜onboarding_2.dart
+┃   ┗ 📜onboarding_3.dart
+┣ 📂models                  # Data models
+┃ ┣ 📜contact_model.dart
+┃ ┣ 📜hazard_model.dart      # New
+┃ ┗ 📜user_model.dart
+┣ 📂services                # APIs/External services
+┃ ┣ 📜auth_service.dart
+┃ ┣ 📜location_service.dart # New
+┃ ┗ 📜sms_service.dart      # For emergency alerts
+┣ 📜app_router.dart         # New: Centralized routing
+┗ 📜main.dart
